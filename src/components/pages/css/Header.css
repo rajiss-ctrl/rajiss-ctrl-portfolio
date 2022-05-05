@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header .header-content{
+width: 60%;
+height: 600px;
+background: #FFFFFF;
+}
+header .header-content h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #2351DC;
+}
+header .header-content h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #2351DC;
+}
+header .header-content h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.content-socio{
+    background: #FFFFFF;
+}
+header .content{
+padding: 0 80px;
+display: grid;
+place-content: center;
+margin-top: 100px;
+
+}
+header .profile-img{
+background: #D3DCF8;
+width: 40%;
+position: relative;
+text-align: center;
+}
+header .profile-img .img img{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 300px;
+}
+header .header-content .content-img{
+    display: flex;
+}
+header .header-content .content-img .linkedin,
+header .header-content .content-img .twitter {
+display: grid;
+place-content: center;
+width: 30px;
+height: 30px;
+border: 1px solid #2351dc;
+border-radius: 50%;
+margin-right:15px;
+}
+header .header-content .content-img .linkedin img,
+header .header-content .content-img .twitter img{
+width: 13px;
+height: 13px;
+}

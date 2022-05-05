@@ -1,0 +1,65 @@
+.testimony{
+    width: 100%;
+    /* padding: 0 70px; */
+    display: flex;
+}
+
+section{
+    background: #1F49C6;
+    width: 40%;
+    display: grid;
+    place-content: center;
+}
+section h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 63px;
+    letter-spacing: -0.03em;
+    padding-left: 100px;
+    /* White */
+    
+    color: #FFFFFF;
+}
+aside{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+aside h2{
+    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height, or 146% */
+
+text-align: center;
+letter-spacing: -0.02em;
+font-feature-settings: 'liga' off;
+
+color: #000000;
+}
+
+.rec-one, .rec-two,.rec-three,.rec-four{
+    text-align: center;
+    padding: 30px;
+}
+.rec-one p,.rec-two p,.rec-three p,.rec-four p{
+    padding: 15px 25px;
+
+        font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+color: #24292E;
+}
+.rec-one img,.rec-two img,.rec-three img,.rec-four img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
