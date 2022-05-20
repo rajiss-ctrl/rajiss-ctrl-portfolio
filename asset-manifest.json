@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rajiss-ctrl-portfolio/static/css/main.82e47bd0.css",
+    "main.js": "/rajiss-ctrl-portfolio/static/js/main.c1b9599d.js",
+    "static/media/rajiss.png": "/rajiss-ctrl-portfolio/static/media/rajiss.30b9690b05077f4d8a03.png",
+    "static/media/adeika.jpg": "/rajiss-ctrl-portfolio/static/media/adeika.793691c41dc5b03103d4.jpg",
+    "index.html": "/rajiss-ctrl-portfolio/index.html",
+    "main.82e47bd0.css.map": "/rajiss-ctrl-portfolio/static/css/main.82e47bd0.css.map",
+    "main.c1b9599d.js.map": "/rajiss-ctrl-portfolio/static/js/main.c1b9599d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e47bd0.css",
+    "static/js/main.c1b9599d.js"
+  ]
+}
