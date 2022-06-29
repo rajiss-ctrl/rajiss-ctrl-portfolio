@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/rajiss-ctrl-portfolio/static/css/main.82e47bd0.css",
-    "main.js": "/rajiss-ctrl-portfolio/static/js/main.c1b9599d.js",
+    "main.css": "/rajiss-ctrl-portfolio/static/css/main.186fc35c.css",
+    "main.js": "/rajiss-ctrl-portfolio/static/js/main.43ab611d.js",
     "static/media/rajiss.png": "/rajiss-ctrl-portfolio/static/media/rajiss.30b9690b05077f4d8a03.png",
+    "static/media/webpto.png": "/rajiss-ctrl-portfolio/static/media/webpto.de47e8eea6126d429730.png",
+    "static/media/sofware.png": "/rajiss-ctrl-portfolio/static/media/sofware.84426b8280df3618adae.png",
+    "static/media/responsive.png": "/rajiss-ctrl-portfolio/static/media/responsive.f43124ae5647e0e72167.png",
     "static/media/adeika.jpg": "/rajiss-ctrl-portfolio/static/media/adeika.793691c41dc5b03103d4.jpg",
     "index.html": "/rajiss-ctrl-portfolio/index.html",
-    "main.82e47bd0.css.map": "/rajiss-ctrl-portfolio/static/css/main.82e47bd0.css.map",
-    "main.c1b9599d.js.map": "/rajiss-ctrl-portfolio/static/js/main.c1b9599d.js.map"
+    "main.186fc35c.css.map": "/rajiss-ctrl-portfolio/static/css/main.186fc35c.css.map",
+    "main.43ab611d.js.map": "/rajiss-ctrl-portfolio/static/js/main.43ab611d.js.map"
   },
   "entrypoints": [
-    "static/css/main.82e47bd0.css",
-    "static/js/main.c1b9599d.js"
+    "static/css/main.186fc35c.css",
+    "static/js/main.43ab611d.js"
   ]
 }
