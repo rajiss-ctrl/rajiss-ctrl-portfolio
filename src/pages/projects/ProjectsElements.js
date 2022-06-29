@@ -1,9 +1,11 @@
-.projects-wrapper{
+import styled from "styled-components";
+
+export const ProjectsContainer = styled.div`
     padding: 0 70px;
     background: #FBFCFE;
     /* height: 1000px; */
-}
-.projects-wrapper h1{
+`
+export const ProjectsH1 = styled.h1`
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -13,8 +15,8 @@
     letter-spacing: -0.03em;
     
     color: #000000;
-}
-.projects-wrapper p{
+`
+export const ProjectsP = styled.p`
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -22,9 +24,8 @@
     line-height: 27px;
     /* identical to box height, or 169% */
     color: #000000;
-}
-
-.projects{
+`
+export const ProjectsWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: minmax(200px,auto); */
@@ -33,45 +34,34 @@
     width:100%;
     margin: 50px auto  200px auto;
     height: 100vh;
-    
-}
-
-/* .projects div{
-    background: green;
-    padding: 30px;
-}
-.projects div:nth-child(even) {
-    background: #777;
-} */
-
-.project-one{
+`
+export const ProjectsOne = styled.div`
     grid-row: 1/ 7;
     grid-column: 1/2;
     background: #2351DC;
-}
-.project-two{
+`
+export const ProjectsTwo = styled.div`
     grid-row: 1/ 4;  
     grid-column: 2/13;
     background: #0DC397;
-}
-.project-three{
+`
+export const ProjectsThree = styled.div`
     grid-row: 4/ 7;
     grid-column: 2/3;
     background: #0A1842;
-}
-
-.project-four{
+`
+export const ProjectsFour = styled.div`
      grid-row: 4/ 10; 
     grid-column: 3/13;
     background: #2351DC;
-}
-.project-five{
+`
+export const ProjectsFive = styled.div`
     grid-row: 7/ 13; 
     grid-column: 1/3;
     background: #1C41B0;
-}
-.project-six{
+`
+export const ProjectsSix = styled.div`
     grid-row: 10/ 13; 
     grid-column: 3/13;
     background: #2351DC;
-}
+`

@@ -1,26 +1,17 @@
 
 import './App.css';
-import { About } from './components/pages/About';
-import Contact from './components/pages/Contact';
-import Footer from './components/pages/Footer';
-import { Header } from './components/pages/Header';
-import { Projects } from './components/pages/Projects';
-import { Services } from './components/pages/Services';
-import { Skills } from './components/pages/Skills';
-import Testimony from './components/pages/Testimony';
-function App() {
+import {Routes, Route} from 'react-router-dom'
+import Profile from './pages/moreabout/Profile';
+import Pages from './pages';
 
+function App() {
 
   return (
     <>
-   <Header/>
-   <About/>
-   <Skills/>
-   <Services/>
-   <Projects/>
-   <Testimony/>
-   <Contact/>
-   <Footer/>
+      <Routes>
+          <Route path="/" element={ <Pages/>}/>
+          <Route path="profile" element={<Profile/>}/>
+      </Routes>
     </>
   );
 }
