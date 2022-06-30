@@ -4,6 +4,9 @@ export const ProjectsContainer = styled.div`
     padding: 80px 70px;
     background: #FBFCFE;
     /* height: 1000px; */
+@media screen and (max-width:912px){
+        padding-top: 100px;
+    }
 `
 export const ProjectsH1 = styled.h1`
     font-family: 'Manrope';

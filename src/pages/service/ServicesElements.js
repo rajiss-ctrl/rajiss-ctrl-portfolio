@@ -6,6 +6,7 @@ export const ServicesContainer = styled.div`
     min-height: 600px;
     background: #FBFCFE;
     padding: 0 70px;
+
 `
 export const ServicesH1 = styled.h1`
     font-family: 'Manrope';
