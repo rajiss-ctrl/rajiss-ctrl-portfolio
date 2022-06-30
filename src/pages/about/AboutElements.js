@@ -24,7 +24,7 @@ export const AboutH4 = styled.h4`
 `
 
 export const AboutParagraph = styled.p`
-    padding: 0 34%;
+    padding: 0 488px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
@@ -32,6 +32,12 @@ export const AboutParagraph = styled.p`
     line-height: 28px;
     text-align: center;
     color: #4D4D4D;
+    @media screen and (max-width:912px){
+        padding: 0 230px;
+    }
+    @media screen and (max-width:600px){
+        padding: 0 100px;
+    }
 `
 export const AboutButtonWrap = styled.div`
     display:grid;

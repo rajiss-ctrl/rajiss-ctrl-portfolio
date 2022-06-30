@@ -47,7 +47,7 @@ export const NavContainer = styled.ul`
 
      @media screen and (max-width:912px){
     background:#ffffff;
-    position:fixed;
+    position:absolute;
     border-radius:100px 0 200px;
     padding-left:40px;
     right:0;
@@ -72,8 +72,8 @@ export const NavList = styled.li`
     line-height: 20px;
     letter-spacing: -0.01em;
     @media screen and (max-width:912px){
-        font-size: 23px;
-        margin-top:60px;
+    font-size: 23px;
+    margin-top:60px;
     }
 `
 export const AnchorScroll = styled(LinkS)`
@@ -82,8 +82,7 @@ export const AnchorScroll = styled(LinkS)`
     cursor:pointer;
     
     @media screen and (max-width:912px){
-        color:#000000;
-
+    color:#000000;
     }
 `
 export const AnchorRouter = styled(LinkR)`
@@ -92,7 +91,7 @@ export const AnchorRouter = styled(LinkR)`
 `
 
 export const SocioIconContainer = styled.div`
-      display: flex;
+    display: flex;
    `
 export const HeroLinkedinWrap = styled.div`
     display: grid;
@@ -104,7 +103,7 @@ export const HeroLinkedinWrap = styled.div`
     margin:20px 15px 0 0;
 
      @media screen and (max-width:912px){
-          display:none;
+    display:none;
       }
 `
 export const LinkedIn = styled(FaLinkedin)`

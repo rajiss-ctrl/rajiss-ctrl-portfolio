@@ -6,7 +6,7 @@ import { ContactContainer, ContactEmail, ContactExLink, ContactForm, ContactForm
 
 const Contact = () => {
   return (
-    <ContactContainer>
+    <ContactContainer id='contact'>
             <ContactSocioWrapper>
                 <ContactSocioH1>Get In Touch.</ContactSocioH1>
                 <ContactSocioP>Whelther is a project or just a chat.</ContactSocioP>

@@ -15,7 +15,7 @@ import {
 
 export const Skills = () => {
   return (
-    <SkillContainer>
+    <SkillContainer id='skills'>
         <SkillH4>My Skills</SkillH4>
         <SkillP>Here are a few skills i possess:</SkillP>
         <SkillSetWrapper>

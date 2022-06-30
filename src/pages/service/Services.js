@@ -6,7 +6,7 @@ import { DevIcon, ServiceImg, ServicesContainer, ServicesH1, ServicesList, Servi
 
 export const Services = () => {
   return (
-    <ServicesContainer>
+    <ServicesContainer id='services'>
         <ServicesH1>Services I Render.</ServicesH1>
         <ServicesP>
             These are the variuos services are can offer, in helping 

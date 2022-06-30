@@ -26,6 +26,9 @@ export const ServicesP = styled.p`
     padding-right: 55%;
     margin-bottom: 30px;
     color: #000000;
+        @media screen and (max-width:912px){
+        padding-right: 0;
+    }
 `
 export const ServicesList = styled.div`
     display: grid;

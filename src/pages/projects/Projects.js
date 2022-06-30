@@ -3,7 +3,7 @@ import { ProjectsContainer, ProjectsFive, ProjectsFour, ProjectsH1, ProjectsOne,
 
 export const Projects = () => {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id='projects'>
         <ProjectsH1>Milestones of Projects</ProjectsH1>
         <ProjectsP>Here are a few  people & projects i’ve patnered and worked on.</ProjectsP>
             <ProjectsWrapper>

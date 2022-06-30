@@ -1,4 +1,4 @@
-
+import React from 'react';
 import {Nav,
 NavContainer,
 NavbarLogo, 
@@ -24,11 +24,21 @@ CloseIcon
     <Nav onClick={handleToggle}>
       <AnchorRouter to='/'>< NavbarLogo >Raji</NavbarLogo></AnchorRouter>
       < NavContainer isOpen={isOpen} onClick={handleToggle}>
-            <NavList><AnchorScroll  onClick={handleToggle} to='about' exact='true' smooth={true} duration={500} spy={true} offset={-80}>About</AnchorScroll></NavList>
-            <NavList><AnchorScroll  onClick={handleToggle} to='skills' exact='true' smooth={true} duration={500} spy={true} offset={-80}>Skills</AnchorScroll></NavList>
-            <NavList><AnchorScroll  onClick={handleToggle} to='services' exact='true' smooth={true} duration={500} spy={true} offset={-80}>Services</AnchorScroll></NavList>
-            <NavList><AnchorScroll  onClick={handleToggle} to='projects' exact='true' smooth={true} duration={500} spy={true} offset={-80}>Projects</AnchorScroll></NavList>
-            <NavList><AnchorScroll  onClick={handleToggle} to='contact' exact='true' smooth={true} duration={500} spy={true} offset={-80}>Contact Me</AnchorScroll></NavList>  
+            <NavList>
+              <AnchorScroll  onClick={handleToggle} to='about' exact='true' smooth={true} duration={700} spy={true} offset={-80}>About</AnchorScroll>
+            </NavList>
+            <NavList>
+              <AnchorScroll  onClick={handleToggle} to='skills' exact='true' smooth={true} duration={700} spy={true} offset={-80}>Skills</AnchorScroll>
+            </NavList>
+            <NavList>
+              <AnchorScroll  onClick={handleToggle} to='services' exact='true' smooth={true} duration={700} spy={true} offset={-80}>Services</AnchorScroll>
+            </NavList>
+            <NavList>
+              <AnchorScroll  onClick={handleToggle} to='projects' exact='true' smooth={true} duration={700} spy={true} offset={-80}>Projects</AnchorScroll>
+            </NavList>
+            <NavList>
+              <AnchorScroll  onClick={handleToggle} to='contact' exact='true' smooth={true} duration={700} spy={true} offset={-80}>Contact Me</AnchorScroll>
+            </NavList>  
       </NavContainer>
         <SocioIconContainer>
             <HeroLinkedinWrap>

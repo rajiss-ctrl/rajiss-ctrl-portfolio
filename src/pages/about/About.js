@@ -3,7 +3,7 @@ import { AboutButton, AboutButtonWrap, AboutContainer, AboutH4, AboutParagraph }
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id='about'>
          <AboutH4>About Me</AboutH4>
         <AboutParagraph>
             Raji is a passionate and goal driven Techpreneur 
